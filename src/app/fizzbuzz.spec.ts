@@ -46,6 +46,11 @@ describe('fizzbuzz', () => {
         expect(result).toBe('fizz');
     });
 
+    it('returns buzz for 51',() => {
+        const result = fizzbuzz(51);
+        expect(result).toBe('fizzbuzz');
+    });
+
     it('returns buzz for 52',() => {
         const result = fizzbuzz(52);
         expect(result).toBe('buzz');
